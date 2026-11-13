@@ -1,0 +1,52 @@
+name: Build or runtime issue
+description: Report a reproducible issue with an Xun Development build or source configuration.
+title: "[xun] "
+body:
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - Redmi Pad SE (xun)
+        - Redmi 10C (fog)
+        - Shared platform / build environment
+    validations:
+      required: true
+  - type: input
+    id: revision
+    attributes:
+      label: Build and source revision
+      description: ROM filename/date and relevant commit or manifest revision.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Build / manifest
+        - Boot / kernel / modules
+        - Audio / Dolby
+        - Face Unlock
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Explain how to reproduce the issue and how often it occurs.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Diagnostic output
+      description: Relevant build errors or device logs, if available.
+      render: text

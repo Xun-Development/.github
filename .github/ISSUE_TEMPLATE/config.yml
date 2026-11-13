@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Build instructions
+    url: https://github.com/Xun-Development/local_manifests/tree/lineage-24.0
+    about: Shared setup and source revisions for xun and fog.
+  - name: Xun stability audit
+    url: https://github.com/Xun-Development/local_manifests/blob/lineage-24.0/AUDIT_XUN.md
+    about: Confirmed fixes, checks and current validation limits.

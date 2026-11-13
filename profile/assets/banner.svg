@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Xun Development</title>
+  <desc id="desc">Community Android sources for Redmi Pad SE. Android 17, LineageOS 24.0, GKI 5.15.194.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071321"/><stop offset="1" stop-color="#102A3A"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#64DFFF"/><stop offset="1" stop-color="#92F4CE"/></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#25BBD0" stop-opacity=".18"/><stop offset="1" stop-color="#25BBD0" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#A0D8E8" stroke-opacity=".045"/></pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1278" height="418" rx="24"/></clipPath>
+    <clipPath id="screen"><rect x="949" y="72" width="189" height="268" rx="13"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="420" fill="url(#background)"/>
+    <rect width="1280" height="420" fill="url(#grid)"/>
+    <ellipse cx="1070" cy="195" rx="350" ry="300" fill="url(#aura)"/>
+    <path d="M809 420L1091 0M919 420L1201 0" stroke="#67DAEF" stroke-opacity=".09" fill="none"/>
+    <path d="M0 0H1280" stroke="url(#accent)" stroke-width="4"/>
+    <g font-family="DejaVu Sans, Segoe UI, Arial, sans-serif">
+      <rect x="56" y="48" width="28" height="28" rx="8" fill="url(#accent)"/>
+      <path d="M64 55L76 69M76 55L64 69" stroke="#071321" stroke-width="3" stroke-linecap="round"/>
+      <text x="100" y="68" fill="#91B4C4" font-size="14" font-weight="600" letter-spacing="2">COMMUNITY ANDROID</text>
+      <text x="56" y="154" fill="#F0F8FC" font-size="66" font-weight="700" letter-spacing="-2">Xun Development</text>
+      <text x="60" y="203" fill="#BED3DE" font-size="25">Built around Redmi Pad SE.</text>
+      <text x="60" y="241" fill="#8CAABA" font-size="19">Device trees. Kernel sources. Shared progress.</text>
+      <g font-size="13" font-weight="700" letter-spacing=".7">
+        <rect x="60" y="285" width="145" height="34" rx="17" fill="#133543" stroke="#2D5A69"/>
+        <circle cx="78" cy="302" r="3" fill="#92F4CE"/>
+        <text x="89" y="307" fill="#D5F7EA">ANDROID 17</text>
+        <rect x="217" y="285" width="179" height="34" rx="17" fill="#112E40" stroke="#2A5269"/>
+        <text x="236" y="307" fill="#C1EDFF">LINEAGEOS 24.0</text>
+        <rect x="408" y="285" width="156" height="34" rx="17" fill="#112E40" stroke="#2A5269"/>
+        <text x="427" y="307" fill="#C1EDFF">GKI 5.15.194</text>
+      </g>
+      <path d="M60 358H100" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
+      <text x="114" y="363" fill="#7F9CAA" font-size="13" letter-spacing="1.2">OPEN SOURCE · INDEPENDENT · COMMUNITY LED</text>
+    </g>
+    <g transform="rotate(9 1044 205)">
+      <rect x="925" y="48" width="237" height="316" rx="23" fill="#071520" stroke="#183D50" stroke-width="2"/>
+      <rect x="934" y="57" width="219" height="298" rx="18" fill="#0A1C2A" stroke="url(#accent)" stroke-opacity=".7"/>
+      <rect x="949" y="72" width="189" height="268" rx="13" fill="#102D40"/>
+      <g clip-path="url(#screen)">
+        <circle cx="1134" cy="98" r="128" fill="#42D8E9" fill-opacity=".06"/>
+        <circle cx="1003" cy="320" r="142" fill="#78F2C4" fill-opacity=".035"/>
+        <path d="M902 237L1116 23M944 305L1186 63M989 365L1220 134" stroke="#87EEEC" stroke-opacity=".08"/>
+        <path d="M977 164L1044 241L1111 164M977 241L1044 164L1111 241" stroke="url(#accent)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <text x="1044" y="286" text-anchor="middle" font-family="DejaVu Sans, Segoe UI, Arial, sans-serif" fill="#A6C7D7" font-size="11" letter-spacing="4">X U N</text>
+        <rect x="1021" y="321" width="46" height="3" rx="1.5" fill="#81AFBF" fill-opacity=".4"/>
+      </g>
+      <circle cx="1044" cy="63" r="2" fill="#6693A8"/>
+    </g>
+    <g font-family="DejaVu Sans, Segoe UI, Arial, sans-serif">
+      <rect x="897" y="351" width="273" height="38" rx="10" fill="#0C2230" stroke="#264D60"/>
+      <circle cx="916" cy="370" r="3" fill="#92F4CE"/>
+      <text x="931" y="375" fill="#B7D2DF" font-size="12" letter-spacing=".6">REDMI PAD SE · XUN</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1278" height="418" rx="24" fill="none" stroke="#264556"/>
+</svg>
